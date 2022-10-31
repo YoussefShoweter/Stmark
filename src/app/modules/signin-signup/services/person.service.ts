@@ -10,6 +10,7 @@ import { signupuser } from '../models/Signup';
   providedIn: 'root'
 })
 export class sign_UpService {
+  private Signedin :boolean =false;
 private url="SigninControllor";
   constructor(private http:HttpClient) { }
   public getPerson():Observable<signupuser[]>{
