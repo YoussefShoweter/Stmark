@@ -1,0 +1,37 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+@import 'swiper/scss';
+@import 'assets/icons/style.scss';
+
+.btn1{
+    height: 33px;
+    background-color: #AF0E2C;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    border: solid black 0px;
+}
+.btn1:active{
+    transform: translateY(2px);
+}
+.btn1:hover{
+    background-color: #920720;
+}
+.Bolded-Text{
+    font-weight: bold;
+}
+
+.form-control.ng-touched.ng-invalid{
+    border: solid 2px red;
+}
+.form-control.ng-touched.ng-valid{
+    border: solid 2px rgba(3, 175, 12, 0.801);
+}
+
+$backround-main-color:white;
+$footer-background-color:#FFF3F0;
+$imp-reminder-slider-color:#FBF4F4;
+$nav-bar-color:#AF0E2C;
+
+$main-font-weight:bold;
+$main-font-size:20px;

@@ -1,0 +1,50 @@
+
+.container{
+    margin-top: 102px;
+    margin-bottom: 158px;
+    background-color: #FBF4F4;
+    border-radius: 35px;
+}
+.img-conatiner{
+    img{
+        width: 100%;
+    }
+}
+.sign-in-header{
+    font-size: 32px;
+text-align:center;
+margin-bottom: 45px;
+}
+.sign-in-element{
+    padding: 41px 0;
+}
+.my-form{
+    padding:0 30px 0 0;
+}
+.input-form{
+    display: grid;
+    justify-content: center ;
+}
+
+.Inputfield{
+    height: 59px;
+    width: 487px;
+    margin-bottom: 60px;
+    border-radius: 10px;
+    }
+   
+    .Inputfield::content{
+        padding-left: 15px;
+        font-weight: bold;
+
+    }
+
+.button-holder{
+    display: flex;
+    justify-content:center;
+   button{
+    width:280.13px;
+    height: 48.04px;
+   }
+
+}

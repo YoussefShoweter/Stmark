@@ -1,0 +1,30 @@
+.logosection{
+    display: flex;
+    justify-content: center;
+
+}
+.leftsection{
+    display: flex;
+    padding-left: 112px;
+    height: fit-content;
+    align-items: center;
+   
+}
+.header-img{
+    margin-right:16px ;
+}
+.header-but{
+    margin-left:120px;
+    min-width: 117px;
+    border: black solid 0;
+    
+}
+.row{
+    margin-bottom: 85px;
+    margin-top: 49px;
+    display: flex;
+    align-items: center;
+}
+.container{
+    width: 100%;
+}

@@ -1,0 +1,28 @@
+.navbar{
+    width: 100%;
+    li{
+        font-weight: bold;   
+        color: white;
+    }
+    
+    a{
+        text-decoration: none;
+        color: white;     
+         width: fit-content;
+    }
+}
+.navbar-nav{
+    display: flex;
+    justify-content: space-between;
+    width: inherit;
+   li{
+    padding-left: 100px;
+    padding-right: 100px;
+   }
+}
+.navbar-expand-lg .navbar-collapse {
+    justify-content: center;
+    background-color: #AF0E2C;
+    padding-top: 17px;
+    padding-bottom: 17px;
+}

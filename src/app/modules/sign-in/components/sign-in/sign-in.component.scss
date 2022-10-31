@@ -1,0 +1,89 @@
+
+.container{
+    margin-top: 102px;
+    margin-bottom: 158px;
+    padding-bottom: 32px;
+    padding-top: 72px;
+    background-color: #FBF4F4;
+    width: 1100px;
+    border-radius: 35px;
+}
+.sign-in-header{
+    font-size: 32px;
+text-align: center;
+margin-bottom: 45px;
+}
+#sign-in-tips{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-right: 0;
+    margin-bottom: 86px;
+
+}
+.sign-in-tips-words{
+    width: 461px;
+    color: #9C9C9C;
+}
+.input-form{
+    display: grid;
+    justify-content: center ;
+}
+.Inputfield{
+height: 59px;
+width: 487px;
+margin-top: 34px;
+border-radius: 10px;
+}
+
+.Inputfield::content{
+    padding-left: 15px;
+    font-weight: bold;
+
+}
+
+
+#rememberme{
+    
+    margin-right: 16px;
+    border-radius: 5px;
+    width: 25px;
+    height: 21px;
+    font-size: 20px;
+}
+.checkbox{
+    margin-top: 65px;
+    margin-left: 295px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 49px;
+}
+.button-holder{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 123px;
+   button{
+    width:487px;
+    height: 59px;
+   }
+}
+.forgot-instructions{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 32px;
+    a{
+        text-decoration: none;
+        color: black;
+    }
+}
+#sign-up-q{
+    margin-right:10px ;
+}
+.rememberme{
+   
+    font-size: 20px;
+}
+
+
+
