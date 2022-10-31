@@ -11,6 +11,7 @@ export class HeaderComponent implements OnInit {
   
   constructor( private sign_inService1:sign_inService) { }
   showBut:boolean=this.sign_inService1.Signedin;
+  FirstName :string =this.sign_inService1.FirstName = "Youssef";
 
   ngOnInit(): void {
   }
